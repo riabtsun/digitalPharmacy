@@ -1,0 +1,79 @@
+@import "vars"
+
+.services
+  .frame
+    margin-bottom: 56px
+    justify-content: start
+    align-items: flex-start
+
+  .frame:nth-child(3)
+    margin-top: 0
+
+
+.services-list
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin: 0 110px
+
+  &__item
+    border: 4px solid $black
+    border-radius: 24px
+    padding: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 292px
+    height: 148px
+
+    &:nth-child(3)
+      position: relative
+
+      &:after
+        position: absolute
+        content: url("../img/cofee.svg")
+        top: -90px
+        right: 20px
+
+
+  &__title
+    font-weight: 700
+    font-size: 24px
+    line-height: 160%
+    color: $red
+    text-align: center
+    text-transform: capitalize
+
+  &__text
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    color: $black
+    text-align: center
+
+  .dots
+    margin: 8px 0
+
+.services-wrap
+  .services-list
+    flex-direction: column
+
+    &__item:first-child
+      margin-left: 152px
+      margin-bottom: 56px
+
+    &__item:nth-child(2)
+      position: relative
+
+      &:before
+        position: absolute
+        content: url("/img/lamp.svg")
+        left: -100px
+        top: -176px
+
+.services__img
+  background-image: url('../img/services.png')
+  -webkit-background-size: contain
+  background-size: contain
+  height: 418px
+  width: 494px

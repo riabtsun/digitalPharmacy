@@ -1,0 +1,91 @@
+@import "vars"
+.form
+  max-width: 575px
+  background-color: $opacityRedLow
+  border-radius: 48px
+  padding: 48px 64px 60px
+
+  &__item
+    margin-bottom: 36px
+
+  &__title
+    font-weight: 800
+    font-size: 36px
+    line-height: 49px
+    color: $black
+    margin-bottom: 24px
+
+  &__input
+    width: 448px
+    height: 48px
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+    color: $black
+
+    &:focus
+      box-shadow: 0 0 15px $black
+
+.form__body
+  position: relative
+
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(51, 51,51,0.9) url('/img/Loading_icon.gif') center / 50px no-repeat
+    opacity: 0
+    visibility: hidden
+    transition: all .5s ease 0s
+
+.form__body._sending::after
+  opacity: 1
+  visibility: visible
+
+.checkbox
+
+.checkbox._error .checkbox__label:before
+  box-shadow: 0 0 30px $red
+
+
+.checkbox__input
+  display: none
+
+.checkbox__input:checked + .checkbox__label:after
+  transform: scale(1)
+
+.checkbox__label
+  display: inline-flex
+  font-weight: 400
+  font-size: 16px
+  line-height: 130%
+  position: relative
+  cursor: pointer
+
+  &:before
+    content: ''
+    align-self: flex-start
+    flex: 0 0 24px
+    height: 24px
+    width: 24px
+    background-color: #fff
+    border-radius: 4px
+    margin-right: 10px
+
+  &:after
+    content: ''
+    transition: transform .5s ease 0s
+    width: 16px
+    height: 16px
+    position: absolute
+    top: 4px
+    left: 4px
+    background-color: $red
+    border-radius: 4px
+    transform: scale(0)
+
+.form__input._error
+  box-shadow: 0 0 30px $red

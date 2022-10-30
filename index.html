@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang='ua'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+          content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/minireseter.css'
+          integrity='sha512-BumbRcsuOsBZeJ/mTzxl8fyusweZsmRdXtYFz8wt3qk//soniVRczO57emqZbjrY1bVdLbT0gIrcoPuHLlz5ng=='
+          crossorigin='anonymous' referrerpolicy='no-referrer'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap-grid.min.css'
+          integrity='sha512-a+PObWRxNVh4HZR9wijCGj84JgJ/QhZ8dET09REfYz2clUBjKYhGbOmdy9KEHilYKgbMSIHNQEsonv/r75mHXw=='
+          crossorigin='anonymous' referrerpolicy='no-referrer'/>
+    <link rel='stylesheet'
+          href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'/>
+    <link rel='stylesheet' href='styles/main.css'>
+    <title>БаДМ</title>
+</head>
+<body>
+<header>
+    <div class='navbar'>
+        <div class='container'>
+            <div class='row'>
+                <nav class='nav-header'>
+                    <a href='#' class='logo-link col-lg-2'>
+                        <svg class='logo-badm'>
+                            <use href='img/sprite.svg#icon-logo'></use>
+                        </svg>
+                    </a>
+                    <input type='checkbox' id='header-check'>
+                    <label for='header-check' class='hamburger-btn'>
+                        <svg class='icon-menu-open'>
+                            <use href='img/sprite.svg#icon-menu-open'></use>
+                        </svg>
+                    </label>
+                    <ul class='nav-list'>
+                        <li class='nav-list__item'>
+                            <a class='nav-list__link active' href='#'>Хто ми?</a>
+                        </li>
+                        <li class='nav-list__item'>
+                            <a class='nav-list__link' href='#'>Послуги</a>
+                        </li>
+                        <li class='nav-list__item'>
+                            <a class='nav-list__link' href='#'>Продукція</a>
+                        </li>
+                        <li class='nav-list__item callback'>
+                            <a href='#' class='callback__link'>Зв’язатись з нами</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='frame'>
+                    <div class='frame__info offset-lg-1 col-lg-5'>
+                        <h1 class='main-title'>
+                            РЕКЛАМНА <br> АГЕНЦІЯ <span class='red-text'>БаДМ</span>
+                        </h1>
+                        <span class='subtitle'>креативна команда у складі однойменної компанії</span>
+                        <div class='dots'>
+                            <div class='dots__red'></div>
+                            <div class='dots__red'></div>
+                            <div class='dots__grey'></div>
+                            <div class='dots__red'></div>
+                        </div>
+                        <p class='text'>
+                            <span class='red-text'>Ідея</span>
+                            — це те, що об’єднує нас з клієнтом та всередині компанії. Смачні рекламні
+                            дизайн-проекти, бренд-стратегії, ефективні канали комунікації.
+                        </p>
+                        <a href='#' class='callback__link'>Зв’язатись з нами</a>
+                    </div>
+                    <div class='frame__media frame__media--top col-lg-5'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='frame justify-content-start'>
+                    <div class='frame__media frame__media--about col-lg-5'></div>
+                    <div class='frame__info frame__info--about offset-lg-1 col-lg-5'>
+                        <h2 class='frame__title'>
+                            ПРО <span class='red-text'>НАС</span>
+                        </h2>
+                        <p class='text'>
+                            Рекламна агенція «БаДМ» — структурний підрозділ у складі однойменної компанії. Ми знаємо, як
+                            створювати креативні проекти, де брати натхнення та що робити, аби стати надійним
+                            екшн-другом для вашого бренда.
+                        </p>
+                        <a href='#' class='detailed__link'>Докладніше про компанію</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='services'>
+        <div class='container'>
+            <div class='row'>
+                <h2 class='frame__title'>ПОСЛУГИ</h2>
+                <div class='frame'>
+                    <ul class='services-list'>
+                        <li class='services-list__item'>
+                            <h4 class='services-list__title'>Брендинг</h4>
+                            <div class='dots'>
+                                <div class='dots__red'></div>
+                                <div class='dots__red'></div>
+                                <div class='dots__grey'></div>
+                                <div class='dots__red'></div>
+                            </div>
+                            <p class='services-list__text'>Логотип та фірмовий стиль</p>
+                        </li>
+                        <li class='services-list__item'>
+                            <h4 class='services-list__title'>Розробка сайтів</h4>
+                            <div class='dots'>
+                                <div class='dots__red'></div>
+                                <div class='dots__red'></div>
+                                <div class='dots__grey'></div>
+                                <div class='dots__red'></div>
+                            </div>
+                            <p class='services-list__text'>Промо-сайти, лендінги, візитки, каталоги тощо</p>
+                        </li>
+                        <li class='services-list__item'>
+                            <h4 class='services-list__title'>Створення упаковок</h4>
+                            <div class='dots'>
+                                <div class='dots__red'></div>
+                                <div class='dots__red'></div>
+                                <div class='dots__grey'></div>
+                                <div class='dots__red'></div>
+                            </div>
+                            <p class='services-list__text'>Візуал коробок, пакетів, паучів тощо</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class='frame'>
+                    <div class='services-wrap'>
+                        <ul class='services-list'>
+                            <li class='services-list__item'>
+                                <h4 class='services-list__title'>Розробка сайтів</h4>
+                                <div class='dots'>
+                                    <div class='dots__red'></div>
+                                    <div class='dots__red'></div>
+                                    <div class='dots__grey'></div>
+                                    <div class='dots__red'></div>
+                                </div>
+                                <p class='services-list__text'>Ведення соцмереж, банери, реклама, розсилки</p>
+                            </li>
+                            <li class='services-list__item'>
+                                <h4 class='services-list__title'>Розробка ПОСМ</h4>
+                                <div class='dots'>
+                                    <div class='dots__red'></div>
+                                    <div class='dots__red'></div>
+                                    <div class='dots__grey'></div>
+                                    <div class='dots__red'></div>
+                                </div>
+                                <p class='services-list__text'>Друкована продукція: флаєри, воблери тощо</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='services__img'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='video col-12'>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='slider-bg'>
+        <div class='container-fluid'>
+            <div class='container'>
+                <div class='row slider-row'>
+                    <h2 class='frame__title'>
+                        НАШІ <span class='red-text'>КРЕАТИВНІ ПРОЕКТИ</span>
+                    </h2>
+                    <div class='slider-box'>
+                        <div class='swiper'>
+                            <!-- Additional required wrapper -->
+                            <div class='swiper-wrapper'>
+                                <!-- Slides -->
+                                <div class='swiper-slide col-lg-5 mr-auto ml-auto'>
+                                    <img src='/img/Indicator-X_3D%201.jpg' alt='medicine'>
+                                    Медична техніка Paramed
+                                </div>
+                                <div class='swiper-slide col-lg-5 mr-auto ml-auto'>
+                                    <img src='/img/Фишка-знижка-10%25%201.jpg' alt='medicine'>
+                                    Сорбенти EASYsorb та регідратанти EASYsalt
+                                </div>
+                                <div class='swiper-slide col-lg-5 mr-auto ml-auto'>
+                                    <img src='/img/Indicator-X_3D%201.jpg' alt='medicine'>
+                                    Медична техніка Paramed
+                                </div>
+                            </div>
+                        </div>
+                        <svg class='arrow-left arrow-button-prev'>
+                            <use href='img/sprite.svg#icon-arrow'></use>
+                        </svg>
+                        <svg class='arrow-right arrow-button-next'>
+                            <use href='img/sprite.svg#icon-arrow'></use>
+                        </svg>
+                        <div class='swiper-pagination'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='frame frame__steps'>
+                    <div class='frame__steps__img'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class='container'>
+            <div class='row'>
+                <div class='frame'>
+                    <div class='form'>
+                        <form action='#' id='form' class='form__body'>
+                            <div class='form__title'>Залишайте заявку</div>
+                            <div class='form__item'>
+                                <label for='formName' class='form__label'>name</label>
+                                <input type='text' name='name' id='formName' class='form__input _req'>
+                            </div>
+                            <div class='form__item'>
+                                <label for='formOrganization' class='form__label'>organization</label>
+                                <input type='text' name='organization' id='formOrganization' class='form__input _req'>
+                            </div>
+                            <div class='form__item'>
+                                <label for='formPhone' class='form__label'>phone</label>
+                                <input type='tel' name='phone' id='formPhone' class='form__input _req'>
+                            </div>
+                            <div class='form__item'>
+                                <label for='formMail' class='form__label'>email</label>
+                                <input type='email' name='email' id='formMail' class='form__input _req _email'>
+                            </div>
+                            <div class='form__item'>
+                                <div class='form__label'>Можливо, у вас є файли, що допоможуть нашій співпраці?</div>
+                                <div class='file'>
+                                    <div class='file__item'>
+                                        <input id='formFile' accept='.jpg .xls .pdf .word' type='file'>
+                                        <div class='file__button'>завантажити</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='form__item'>
+                                <div class='checkbox'>
+                                    <input type='checkbox' id='formAgreement' name='agreement' class='checkbox__input'>
+                                    <label for='formAgreement' class='checkbox__label'>Я згоден(а) з обробкою моїх
+                                        персональних даних</label>
+                                </div>
+                            </div>
+                            <button type='submit' class='form__btn'>Залишити заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js'></script>
+<script src='script.js'></script>
+</body>
+</html>

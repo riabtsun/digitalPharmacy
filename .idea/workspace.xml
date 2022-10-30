@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a42f2752-dfb6-4dff-8e65-7b82ed681106" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gnn4LKZCAWab2DK1g4LPja4aHA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Frontend\Distance\digital\fonts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="25" Folder0="D:\Frontend\Distance\digital\fonts" Folder1="D:\Frontend\Distance\digital\fonts" Folder2="D:\Frontend\Distance\digital\fonts" Folder3="D:\Frontend\Distance\digital\fonts" Folder4="D:\Frontend\Distance\digital\fonts" Folder5="D:\Frontend\Distance\digital\fonts" Folder6="D:\Frontend\Distance\digital\fonts" Folder7="D:\Frontend\Distance\digital\fonts" Folder8="D:\Frontend\Distance\digital\fonts" Folder9="D:\Frontend\Distance\digital\fonts" Folder10="D:\Frontend\Distance\digital\fonts" Folder11="D:\Frontend\Distance\digital\fonts" Folder12="D:\Frontend\Distance\digital\fonts" Folder13="D:\Frontend\Distance\digital\fonts" Folder14="D:\Frontend\Distance\digital\fonts" Folder15="D:\Frontend\Distance\digital\fonts" Folder16="D:\Frontend\Distance\digital\fonts" Folder17="D:\Frontend\Distance\digital\fonts" Folder18="D:\Frontend\Distance\digital\fonts" Folder19="D:\Frontend\Distance\digital\fonts" Folder20="D:\Frontend\Distance\digital\fonts" Folder21="D:\Frontend\Distance\digital\fonts" Folder22="D:\Frontend\Distance\digital\fonts" Folder23="D:\Frontend\Distance\digital\fonts" Folder24="D:\Frontend\Distance\digital\fonts" CustomDictionaries="25" CustomDictionary0="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-600.woff" CustomDictionary1="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-600.woff2" CustomDictionary2="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-700.eot" CustomDictionary3="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-700.svg" CustomDictionary4="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-700.ttf" CustomDictionary5="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-700.woff" CustomDictionary6="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-700.woff2" CustomDictionary7="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-800.eot" CustomDictionary8="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-800.svg" CustomDictionary9="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-800.ttf" CustomDictionary10="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-800.woff" CustomDictionary11="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-800.woff2" CustomDictionary12="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-900italic.eot" CustomDictionary13="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-900italic.svg" CustomDictionary14="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-900italic.ttf" CustomDictionary15="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-900italic.woff" CustomDictionary16="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-900italic.woff2" CustomDictionary17="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-regular.eot" CustomDictionary18="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-regular.svg" CustomDictionary19="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-regular.ttf" CustomDictionary20="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-regular.woff" CustomDictionary21="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-regular.woff2" CustomDictionary22="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-600.eot" CustomDictionary23="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-600.svg" CustomDictionary24="$PROJECT_DIR$/fonts/nunito-sans-v12-latin_cyrillic-600.ttf" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a42f2752-dfb6-4dff-8e65-7b82ed681106" name="Changes" comment="" />
+      <created>1667033026732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667033026732</updated>
+      <workItem from="1667033029503" duration="22000" />
+      <workItem from="1667033079288" duration="24262000" />
+      <workItem from="1667114698082" duration="19985000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

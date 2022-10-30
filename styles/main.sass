@@ -1,0 +1,129 @@
+@import "vars"
+@import "fonts"
+@import 'header'
+@import "services"
+@import "projects"
+@import "steps"
+@import "form"
+
+*
+  box-sizing: border-box
+
+body
+  font-family: 'Nunito Sans', sans-serif
+
+a
+  text-decoration: none
+
+.callback__link
+  font-weight: 600
+  font-size: 18px
+  line-height: 25px
+  color: $white
+  background-color: $red
+  padding: 12px 32px
+  transition: all .3s
+  display: inline-block
+
+  &:hover
+    color: $white
+    background-color: $opacityRed
+
+  &:active
+    color: $red
+
+.detailed__link
+  padding: 12px 32px
+  font-weight: 600
+  font-size: 18px
+  line-height: 25px
+  color: $black
+  transition: .3s
+  border: 1px solid $red
+
+  &:hover
+    color: $white
+    background-color: $red
+
+  &:active
+    background-color: $opacityRed
+    color: $red
+    border-color: $opacityRed
+
+.red-text
+  color: $red
+
+.main-title
+  font-weight: 800
+  font-size: 48px
+  line-height: 65px
+  color: $black
+
+.subtitle
+  font-weight: 700
+  font-size: 20px
+  line-height: 130%
+  color: $black
+
+.frame
+  display: flex
+  flex-direction: column
+  margin-top: 40px
+  @media screen and (min-width: 900px)
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 150px
+
+.frame__title
+  font-weight: 800
+  font-size: 36px
+  line-height: 49px
+  color: $black
+
+.dots
+  display: flex
+  width: 40px
+  justify-content: space-between
+  margin: 20px 0
+
+  &__red,
+  &__grey
+    width: 6px
+    height: 6px
+    background-color: $red
+    border-radius: 50%
+
+  &__grey
+    background-color: $grey
+
+.text
+  font-size: 20px
+  line-height: 160%
+  color: $black
+  font-weight: 600
+  margin-bottom: 24px
+
+  .red-text
+    font-weight: 700
+
+.frame__media--top
+  background-image: url('/img/girl-top.png')
+  -webkit-background-size: cover
+  background-size: contain
+  background-repeat: no-repeat
+  height: 449px
+
+.frame__media--about
+  background-image: url('/img/about.png')
+  -webkit-background-size: cover
+  background-size: contain
+  background-repeat: no-repeat
+  height: 431px
+
+.frame__info--about
+  text-align: left
+
+.video
+  height: 650px
+  border-radius: 24px
